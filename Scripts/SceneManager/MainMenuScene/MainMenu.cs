@@ -52,7 +52,7 @@ public class MainMenu : MonoBehaviour
         {
             float totalProgress = Mathf.Clamp01(sceneToLoad.progress / .9f);
             loadingProgressBar.value = totalProgress;
-            progressText.text = totalProgress * 100f + "%";
+            progressText.text = (totalProgress * 100f).ToString("F0") + "%";
             yield return null;
         }
     }
