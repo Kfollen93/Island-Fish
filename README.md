@@ -19,17 +19,17 @@ In the end I feel like I accomplished what I set out to do from the start, but t
 ## Learning Outcome
 I planned a lot for this prototype with a [diagram board](https://www.diagrams.net/) for initial high-level scope and ideas, [Trello board](https://trello.com/) for programming tasks and overall progress, along with many empty projects for testing assets. Yet, even with all of this preparation, I still stumbled a bit and learned even more. <br>
 
-The main component of this prototype was a fishing system, which I struggled with a lot. From several iterations of using a line renderer, to implementing my own version of a [Verlet Integration](https://en.wikipedia.org/wiki/Verlet_integration) fishing line, to eventually landing on purchasing [Obi Rope](https://assetstore.unity.com/packages/tools/physics/obi-rope-55579). Although Obi Rope is amazing for simulating rope physics, it is extremely complex. I spent nearly a month trying to understand how the asset worked and I lost a lot of time and motivation. I should have had a plan for how I was going to implement the fishing line, stuck with it from the beginning, and not switch halfway through. <br>
+The main component of this prototype was a fishing system, which I struggled with a lot. From several iterations of using a line renderer, to implementing my own version of a [Verlet Integration](https://en.wikipedia.org/wiki/Verlet_integration) fishing line, to eventually landing on purchasing [Obi Rope](https://assetstore.unity.com/packages/tools/physics/obi-rope-55579). Although Obi Rope is amazing for simulating rope physics, it is extremely complex. I spent nearly a month trying to understand how the asset worked and I lost a lot of time and motivation. I should have had a plan for how I was going to implement the fishing line, and stuck with it from the beginning. <br>
 
 Beyond the fishing line, I did not spend much time thinking about how to add details to the fishing system. This was purely on me having conflicting interests. My main goal was to create a comprehensive project, including all of the aforementioned systems, yet I overlooked the details of the main feature. I had added the fish scriptable objects, implemented saving and loading, had a cutscene, spent time creating the island, made a shop system with camera switching, but the fishing system, although it certainly works, could have used more time and planning.
 
 ## End Thoughts & Future
-I plan to shift how I think when it comes to implementing features. I found myself writing code for specific items/objects, rather than taking a bit more time to create a reusuable system that is open for extension to apply to several similiar objects. I really enjoyed creating custom Inspectors with [Odin](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041) and I gained a better understanding of how to work with Scriptable Objects when it came to creating the fish.<br>
+I will shift how I think when it comes to implementing features. I found myself writing code for specific items/objects, rather than taking a bit more time to create a reusuable system that is open for extension to apply to several similiar objects. I really enjoyed creating custom Inspectors with [Odin](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041) and I gained a better understanding of how to work with Scriptable Objects.<br>
 <br>
 <img src="https://github.com/Kfollen93/Island-Fish/blob/main/Images/inspector.png" width="640" height="360"/><br>
 <i>Fish Scriptable Object custom Inspector example.</i>
 
-This project also highlighted some key programming areas that I still struggle with and realized I really need to directly spend some time studying and practing, some of those areas are:
+This project also highlighted some key programming areas that I still struggle with and made me realize I need to directly spend time studying and practing, some of those areas are:
 
 - Implementing Actions, Events, and Delegates more often.
 - Moving logic out of the `Update()` loop into more sub/unsub systems.
