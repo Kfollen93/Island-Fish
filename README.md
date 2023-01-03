@@ -2,8 +2,7 @@
 
 <img src="https://github.com/Kfollen93/Island-Fish/blob/main/Images/fishing.gif" width="640" height="360"/>
 
-*Download link to build will be added soon.
-<!--You can download the game from my Itch.io page here: <a href="https://kfollen.itch.io/island-fish">Island Fish</a> --> <br>
+You can download the game from my Itch.io page here: <a href="https://kfollen.itch.io/island-fish">Island Fish</a>. <br>
 
 <i>*Due to the original (private) repository that I used throughout development containing paid assets, I have made this new repository public with only the code available within it. I've set up my game repositories this way to be able to share my code, without violating any asset copyright rules. The private repository containing all project files and commit messages may be available upon request. </i> <br>
 
