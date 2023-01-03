@@ -8,7 +8,7 @@
 <i>*Due to the original (private) repository that I used throughout development containing paid assets, I have made this new repository public with only the code available within it. I've set up my game repositories this way to be able to share my code, without violating any asset copyright rules. The private repository containing all project files and commit messages may be available upon request. </i> <br>
 
 ## Description
-Island Fish is a fishing collection prototype. There are eight different fish to be caught from multiple bodies of water, with each fish having its own unique stats. You must find bait worms along the coast in order to fish, with the end goal of catching every fish, along with the max size of each (which is a tracked stat in the player's journal).<br>
+Island Fish is a fishing collection prototype. There are eight different fish to be caught from multiple bodies of water, with each fish having its own unique stats. You must find bait worms along the coast in order to fish. The end goal is to catch every fish at its max size (trackable info in the player's journal).<br>
 
 All progression can be saved and loaded (via JSON).
 
