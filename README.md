@@ -24,19 +24,19 @@ The main component of this prototype was a fishing system, which I struggled wit
 Beyond the fishing line, I did not spend much time thinking about how to add details to the fishing system. This was purely on me having conflicting interests. My main goal was to create a comprehensive project, including all of the aforementioned systems, yet I overlooked the details of the main feature. I had added the fish Scriptable Objects, implemented saving and loading, had a cutscene, spent time creating the island, made a shop system with camera switching, but the fishing system, although it certainly works, could have used more time and planning.
 
 ## End Thoughts & Future
-I will shift how I think when it comes to implementing features. I found myself writing code for specific items/objects, rather than taking a bit more time to create a reusuable system that is open for extension to apply to several similiar objects. I really enjoyed creating custom Inspectors with [Odin](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041) and I gained a better understanding of how to work with Scriptable Objects.<br>
+I will shift how I think when it comes to implementing features. I found myself writing code for specific items/objects, rather than taking a bit more time to create a reusable system that is open for extension to apply to several similar objects. I really enjoyed creating custom Inspectors with [Odin](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041) and I gained a better understanding of how to work with Scriptable Objects.<br>
 <br>
 <img src="https://github.com/Kfollen93/Island-Fish/blob/main/Images/inspector.png" width="640" height="360"/><br>
 <i>Fish Scriptable Object custom Inspector example.</i>
 
-This project also highlighted some key programming areas that I still struggle with and made me realize I need to directly spend time studying and practing, some of those areas are:
+This project also highlighted some key programming areas that I still struggle with and made me realize I need to directly spend time studying and practicing, some of those areas are:
 
 - Implementing Actions, Events, and Delegates more often.
 - Moving logic out of the `Update()` loop into more sub/unsub systems.
 - Getting a better handle on references to not rely on `FindWithTag()`.
 - Decoupling in general.
 
-I don't know what my next project will be at the moment, but I am certain it will be focused around my weakpoints mentioned above. I recently [built a template for Ray Tracing](https://github.com/Kfollen93/HDRP-Ray-Tracing) in Unity's HDRP, which I am currently interested in exploring more of in regards to lighting and Ray Tracing.
+I don't know what my next project will be at the moment, but I am certain it will be focused around my weak points mentioned above. I recently [built a template for Ray Tracing](https://github.com/Kfollen93/HDRP-Ray-Tracing) in Unity's HDRP, which I am currently interested in exploring more of in regards to lighting and Ray Tracing.
 ## Screenshots
 <img src="https://github.com/Kfollen93/Island-Fish/blob/main/Images/caught.png" width="640" height="360"/>
 <img src="https://github.com/Kfollen93/Island-Fish/blob/main/Images/sea.png" width="640" height="360"/>
